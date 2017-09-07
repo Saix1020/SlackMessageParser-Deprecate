@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="174" id="KGk-i7-Jjw" customClass="SLKMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="174"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="174"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odG-s7-lUx">
+                        <rect key="frame" x="8" y="8" width="42" height="42"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="0lf-lh-RZt"/>
+                            <constraint firstAttribute="height" constant="42" id="Y7d-2z-gja"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Name and date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRK-yq-chi">
+                        <rect key="frame" x="58" y="8" width="340" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="DXJ-BN-ea9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iz3-Ru-g9Z" customClass="SLKMessageContainerView">
+                        <rect key="frame" x="58" y="32" width="340" height="142"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="142" id="iF8-FS-lRp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="fRK-yq-chi" secondAttribute="trailing" id="0Id-Ec-L9G"/>
+                    <constraint firstAttribute="topMargin" secondItem="odG-s7-lUx" secondAttribute="top" id="C2C-jS-7qV"/>
+                    <constraint firstItem="fRK-yq-chi" firstAttribute="leading" secondItem="odG-s7-lUx" secondAttribute="trailing" constant="8" id="Q2O-oF-WKj"/>
+                    <constraint firstItem="Iz3-Ru-g9Z" firstAttribute="top" secondItem="fRK-yq-chi" secondAttribute="bottom" constant="3" id="Xvq-Id-boQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Iz3-Ru-g9Z" secondAttribute="bottom" id="YYM-ka-jYa"/>
+                    <constraint firstItem="Iz3-Ru-g9Z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="50" id="bHb-kr-MLP"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="odG-s7-lUx" secondAttribute="leading" id="m8m-6H-ncW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Iz3-Ru-g9Z" secondAttribute="trailing" id="oTM-Uo-mPn"/>
+                    <constraint firstAttribute="topMargin" secondItem="fRK-yq-chi" secondAttribute="top" id="zHM-fD-kyu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageContainerView" destination="Iz3-Ru-g9Z" id="14R-VH-SBF"/>
+                <outlet property="messageContainerViewHC" destination="iF8-FS-lRp" id="fAg-1K-14o"/>
+                <outlet property="messageContainerViewLC" destination="bHb-kr-MLP" id="M1w-6G-rdb"/>
+                <outlet property="nameDateLabel" destination="fRK-yq-chi" id="taZ-lb-I6p"/>
+            </connections>
+            <point key="canvasLocation" x="76" y="147"/>
+        </tableViewCell>
+    </objects>
+</document>

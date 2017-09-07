@@ -7,25 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F807E83E1F4ED49300C6DF32 /* SLKTagToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E83D1F4ED49300C6DF32 /* SLKTagToken.m */; };
+		F807E8471F5402B600C6DF32 /* SLKUrlToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E8461F5402B600C6DF32 /* SLKUrlToken.m */; };
+		F807E84A1F54046500C6DF32 /* SLKEmojiToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E8491F54046500C6DF32 /* SLKEmojiToken.m */; };
+		F807E84D1F54049A00C6DF32 /* SLKJumbomojiToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E84C1F54049A00C6DF32 /* SLKJumbomojiToken.m */; };
+		F807E8571F55406D00C6DF32 /* UIView+SLKTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E8561F55406D00C6DF32 /* UIView+SLKTokens.m */; };
+		F807E85B1F5559A500C6DF32 /* SLKMessageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E85A1F5559A500C6DF32 /* SLKMessageLabel.m */; };
+		F807E85E1F57AF7800C6DF32 /* SLKMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E85D1F57AF7800C6DF32 /* SLKMessageView.m */; };
+		F807E8611F5928AE00C6DF32 /* SLKMessageContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E8601F5928AE00C6DF32 /* SLKMessageContainerView.m */; };
+		F807E8641F595CF000C6DF32 /* SLKQuoteContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F807E8631F595CF000C6DF32 /* SLKQuoteContainerView.m */; };
+		F8E33CB11F5E5D21009E11B3 /* SLKURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CB01F5E5D21009E11B3 /* SLKURLProtocol.m */; };
+		F8E33CB51F5EAEFC009E11B3 /* SLKMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CB31F5EAEFC009E11B3 /* SLKMessageCell.m */; };
+		F8E33CB61F5EAEFC009E11B3 /* SLKMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E33CB41F5EAEFC009E11B3 /* SLKMessageCell.xib */; };
+		F8E33CB91F5EB0D7009E11B3 /* SLKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CB81F5EB0D7009E11B3 /* SLKMessageViewController.m */; };
+		F8E33CC31F5FB829009E11B3 /* FHHFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CC01F5FB829009E11B3 /* FHHFPSIndicator.m */; };
+		F8E33CC41F5FB829009E11B3 /* UIWindow+FHH.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CC21F5FB829009E11B3 /* UIWindow+FHH.m */; };
+		F8E33CC71F5FC955009E11B3 /* NSString+SLKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CC61F5FC955009E11B3 /* NSString+SLKMessage.m */; };
+		F8E33CCD1F5FD7A9009E11B3 /* SLKEmojiMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E33CCC1F5FD7A9009E11B3 /* SLKEmojiMap.m */; };
 		F8EAEC671F4D2B0700887894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC661F4D2B0700887894 /* main.m */; };
 		F8EAEC6A1F4D2B0700887894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC691F4D2B0700887894 /* AppDelegate.m */; };
-		F8EAEC6D1F4D2B0700887894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC6C1F4D2B0700887894 /* ViewController.m */; };
 		F8EAEC701F4D2B0700887894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EAEC6E1F4D2B0700887894 /* Main.storyboard */; };
 		F8EAEC721F4D2B0700887894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EAEC711F4D2B0700887894 /* Assets.xcassets */; };
 		F8EAEC751F4D2B0700887894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EAEC731F4D2B0700887894 /* LaunchScreen.storyboard */; };
+		F8EAEC801F4D2B9000887894 /* SLKToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC7F1F4D2B9000887894 /* SLKToken.m */; };
+		F8EAEC831F4D2D3100887894 /* SLKRegx.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC821F4D2D3100887894 /* SLKRegx.m */; };
+		F8EAEC861F4D40D100887894 /* UIFont+SLKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC851F4D40D100887894 /* UIFont+SLKMessage.m */; };
+		F8EAEC891F4E6AE200887894 /* SLKBoldToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC881F4E6AE200887894 /* SLKBoldToken.m */; };
+		F8EAEC8C1F4E6B0E00887894 /* SLKItalicsToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC8B1F4E6B0E00887894 /* SLKItalicsToken.m */; };
+		F8EAEC8F1F4E6B2300887894 /* SLKStrikeToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC8E1F4E6B2300887894 /* SLKStrikeToken.m */; };
+		F8EAEC921F4E6B5600887894 /* SLKQuoteToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC911F4E6B5600887894 /* SLKQuoteToken.m */; };
+		F8EAEC951F4E6EBC00887894 /* SLKTokenHasSubTokens.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC941F4E6EBC00887894 /* SLKTokenHasSubTokens.m */; };
+		F8EAEC9A1F4E762100887894 /* SLKTokenFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEC991F4E762100887894 /* SLKTokenFactory.m */; };
+		F8EAECA41F4E9A1300887894 /* SLKLongQuoteToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAECA31F4E9A1300887894 /* SLKLongQuoteToken.m */; };
+		F8EAECA71F4E9AFC00887894 /* SLKTokenParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAECA61F4E9AFC00887894 /* SLKTokenParser.m */; };
+		F8EAECAA1F4EA25200887894 /* SLKPreToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAECA91F4EA25200887894 /* SLKPreToken.m */; };
+		F8EAECAD1F4EA5E500887894 /* SLKCodeToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EAECAC1F4EA5E500887894 /* SLKCodeToken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F807E83C1F4ED49300C6DF32 /* SLKTagToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTagToken.h; sourceTree = "<group>"; };
+		F807E83D1F4ED49300C6DF32 /* SLKTagToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTagToken.m; sourceTree = "<group>"; };
+		F807E8451F5402B600C6DF32 /* SLKUrlToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKUrlToken.h; sourceTree = "<group>"; };
+		F807E8461F5402B600C6DF32 /* SLKUrlToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKUrlToken.m; sourceTree = "<group>"; };
+		F807E8481F54046500C6DF32 /* SLKEmojiToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKEmojiToken.h; sourceTree = "<group>"; };
+		F807E8491F54046500C6DF32 /* SLKEmojiToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKEmojiToken.m; sourceTree = "<group>"; };
+		F807E84B1F54049A00C6DF32 /* SLKJumbomojiToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKJumbomojiToken.h; sourceTree = "<group>"; };
+		F807E84C1F54049A00C6DF32 /* SLKJumbomojiToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKJumbomojiToken.m; sourceTree = "<group>"; };
+		F807E8551F55406D00C6DF32 /* UIView+SLKTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLKTokens.h"; sourceTree = "<group>"; };
+		F807E8561F55406D00C6DF32 /* UIView+SLKTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLKTokens.m"; sourceTree = "<group>"; };
+		F807E8591F5559A500C6DF32 /* SLKMessageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKMessageLabel.h; sourceTree = "<group>"; };
+		F807E85A1F5559A500C6DF32 /* SLKMessageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKMessageLabel.m; sourceTree = "<group>"; };
+		F807E85C1F57AF7800C6DF32 /* SLKMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKMessageView.h; sourceTree = "<group>"; };
+		F807E85D1F57AF7800C6DF32 /* SLKMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKMessageView.m; sourceTree = "<group>"; };
+		F807E85F1F5928AE00C6DF32 /* SLKMessageContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKMessageContainerView.h; sourceTree = "<group>"; };
+		F807E8601F5928AE00C6DF32 /* SLKMessageContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKMessageContainerView.m; sourceTree = "<group>"; };
+		F807E8621F595CF000C6DF32 /* SLKQuoteContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKQuoteContainerView.h; sourceTree = "<group>"; };
+		F807E8631F595CF000C6DF32 /* SLKQuoteContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKQuoteContainerView.m; sourceTree = "<group>"; };
+		F8E33CAF1F5E5D21009E11B3 /* SLKURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKURLProtocol.h; sourceTree = "<group>"; };
+		F8E33CB01F5E5D21009E11B3 /* SLKURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKURLProtocol.m; sourceTree = "<group>"; };
+		F8E33CB21F5EAEFC009E11B3 /* SLKMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKMessageCell.h; sourceTree = "<group>"; };
+		F8E33CB31F5EAEFC009E11B3 /* SLKMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKMessageCell.m; sourceTree = "<group>"; };
+		F8E33CB41F5EAEFC009E11B3 /* SLKMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLKMessageCell.xib; sourceTree = "<group>"; };
+		F8E33CB71F5EB0D7009E11B3 /* SLKMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKMessageViewController.h; sourceTree = "<group>"; };
+		F8E33CB81F5EB0D7009E11B3 /* SLKMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKMessageViewController.m; sourceTree = "<group>"; };
+		F8E33CBF1F5FB829009E11B3 /* FHHFPSIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHHFPSIndicator.h; sourceTree = "<group>"; };
+		F8E33CC01F5FB829009E11B3 /* FHHFPSIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHHFPSIndicator.m; sourceTree = "<group>"; };
+		F8E33CC11F5FB829009E11B3 /* UIWindow+FHH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FHH.h"; sourceTree = "<group>"; };
+		F8E33CC21F5FB829009E11B3 /* UIWindow+FHH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FHH.m"; sourceTree = "<group>"; };
+		F8E33CC51F5FC955009E11B3 /* NSString+SLKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SLKMessage.h"; sourceTree = "<group>"; };
+		F8E33CC61F5FC955009E11B3 /* NSString+SLKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SLKMessage.m"; sourceTree = "<group>"; };
+		F8E33CCB1F5FD7A9009E11B3 /* SLKEmojiMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKEmojiMap.h; sourceTree = "<group>"; };
+		F8E33CCC1F5FD7A9009E11B3 /* SLKEmojiMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKEmojiMap.m; sourceTree = "<group>"; };
 		F8EAEC621F4D2B0700887894 /* SLKMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLKMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EAEC661F4D2B0700887894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8EAEC681F4D2B0700887894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8EAEC691F4D2B0700887894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8EAEC6B1F4D2B0700887894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8EAEC6C1F4D2B0700887894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8EAEC6F1F4D2B0700887894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8EAEC711F4D2B0700887894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8EAEC741F4D2B0700887894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8EAEC761F4D2B0700887894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EAEC7E1F4D2B9000887894 /* SLKToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKToken.h; sourceTree = "<group>"; };
+		F8EAEC7F1F4D2B9000887894 /* SLKToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKToken.m; sourceTree = "<group>"; };
+		F8EAEC811F4D2D3100887894 /* SLKRegx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKRegx.h; sourceTree = "<group>"; };
+		F8EAEC821F4D2D3100887894 /* SLKRegx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKRegx.m; sourceTree = "<group>"; };
+		F8EAEC841F4D40D100887894 /* UIFont+SLKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SLKMessage.h"; sourceTree = "<group>"; };
+		F8EAEC851F4D40D100887894 /* UIFont+SLKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SLKMessage.m"; sourceTree = "<group>"; };
+		F8EAEC871F4E6AE200887894 /* SLKBoldToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKBoldToken.h; sourceTree = "<group>"; };
+		F8EAEC881F4E6AE200887894 /* SLKBoldToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKBoldToken.m; sourceTree = "<group>"; };
+		F8EAEC8A1F4E6B0E00887894 /* SLKItalicsToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKItalicsToken.h; sourceTree = "<group>"; };
+		F8EAEC8B1F4E6B0E00887894 /* SLKItalicsToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKItalicsToken.m; sourceTree = "<group>"; };
+		F8EAEC8D1F4E6B2300887894 /* SLKStrikeToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKStrikeToken.h; sourceTree = "<group>"; };
+		F8EAEC8E1F4E6B2300887894 /* SLKStrikeToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKStrikeToken.m; sourceTree = "<group>"; };
+		F8EAEC901F4E6B5600887894 /* SLKQuoteToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKQuoteToken.h; sourceTree = "<group>"; };
+		F8EAEC911F4E6B5600887894 /* SLKQuoteToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKQuoteToken.m; sourceTree = "<group>"; };
+		F8EAEC931F4E6EBC00887894 /* SLKTokenHasSubTokens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTokenHasSubTokens.h; sourceTree = "<group>"; };
+		F8EAEC941F4E6EBC00887894 /* SLKTokenHasSubTokens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTokenHasSubTokens.m; sourceTree = "<group>"; };
+		F8EAEC981F4E762100887894 /* SLKTokenFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTokenFactory.h; sourceTree = "<group>"; };
+		F8EAEC991F4E762100887894 /* SLKTokenFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTokenFactory.m; sourceTree = "<group>"; };
+		F8EAECA21F4E9A1300887894 /* SLKLongQuoteToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKLongQuoteToken.h; sourceTree = "<group>"; };
+		F8EAECA31F4E9A1300887894 /* SLKLongQuoteToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKLongQuoteToken.m; sourceTree = "<group>"; };
+		F8EAECA51F4E9AFC00887894 /* SLKTokenParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTokenParser.h; sourceTree = "<group>"; };
+		F8EAECA61F4E9AFC00887894 /* SLKTokenParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTokenParser.m; sourceTree = "<group>"; };
+		F8EAECA81F4EA25200887894 /* SLKPreToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKPreToken.h; sourceTree = "<group>"; };
+		F8EAECA91F4EA25200887894 /* SLKPreToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKPreToken.m; sourceTree = "<group>"; };
+		F8EAECAB1F4EA5E500887894 /* SLKCodeToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKCodeToken.h; sourceTree = "<group>"; };
+		F8EAECAC1F4EA5E500887894 /* SLKCodeToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKCodeToken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +125,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F807E8541F553D2B00C6DF32 /* SLKView */ = {
+			isa = PBXGroup;
+			children = (
+				F807E8551F55406D00C6DF32 /* UIView+SLKTokens.h */,
+				F807E8561F55406D00C6DF32 /* UIView+SLKTokens.m */,
+				F807E8591F5559A500C6DF32 /* SLKMessageLabel.h */,
+				F807E85A1F5559A500C6DF32 /* SLKMessageLabel.m */,
+				F807E85C1F57AF7800C6DF32 /* SLKMessageView.h */,
+				F807E85D1F57AF7800C6DF32 /* SLKMessageView.m */,
+				F807E85F1F5928AE00C6DF32 /* SLKMessageContainerView.h */,
+				F807E8601F5928AE00C6DF32 /* SLKMessageContainerView.m */,
+				F807E8621F595CF000C6DF32 /* SLKQuoteContainerView.h */,
+				F807E8631F595CF000C6DF32 /* SLKQuoteContainerView.m */,
+			);
+			name = SLKView;
+			sourceTree = "<group>";
+		};
+		F8E33CAE1F5E5CFA009E11B3 /* URLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				F8E33CAF1F5E5D21009E11B3 /* SLKURLProtocol.h */,
+				F8E33CB01F5E5D21009E11B3 /* SLKURLProtocol.m */,
+			);
+			name = URLProtocol;
+			sourceTree = "<group>";
+		};
+		F8E33CC81F5FD17E009E11B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F8E33CC51F5FC955009E11B3 /* NSString+SLKMessage.h */,
+				F8E33CC61F5FC955009E11B3 /* NSString+SLKMessage.m */,
+				F8EAEC841F4D40D100887894 /* UIFont+SLKMessage.h */,
+				F8EAEC851F4D40D100887894 /* UIFont+SLKMessage.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F8E33CC91F5FD1A9009E11B3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F8EAEC681F4D2B0700887894 /* AppDelegate.h */,
+				F8EAEC691F4D2B0700887894 /* AppDelegate.m */,
+				F8E33CB21F5EAEFC009E11B3 /* SLKMessageCell.h */,
+				F8E33CB31F5EAEFC009E11B3 /* SLKMessageCell.m */,
+				F8E33CB41F5EAEFC009E11B3 /* SLKMessageCell.xib */,
+				F8E33CB71F5EB0D7009E11B3 /* SLKMessageViewController.h */,
+				F8E33CB81F5EB0D7009E11B3 /* SLKMessageViewController.m */,
+				F8E33CBF1F5FB829009E11B3 /* FHHFPSIndicator.h */,
+				F8E33CC01F5FB829009E11B3 /* FHHFPSIndicator.m */,
+				F8E33CC11F5FB829009E11B3 /* UIWindow+FHH.h */,
+				F8E33CC21F5FB829009E11B3 /* UIWindow+FHH.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		F8E33CCA1F5FD793009E11B3 /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				F8E33CCB1F5FD7A9009E11B3 /* SLKEmojiMap.h */,
+				F8E33CCC1F5FD7A9009E11B3 /* SLKEmojiMap.m */,
+			);
+			name = Emoji;
+			sourceTree = "<group>";
+		};
 		F8EAEC591F4D2B0700887894 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +208,13 @@
 		F8EAEC641F4D2B0700887894 /* SLKMessage */ = {
 			isa = PBXGroup;
 			children = (
-				F8EAEC681F4D2B0700887894 /* AppDelegate.h */,
-				F8EAEC691F4D2B0700887894 /* AppDelegate.m */,
-				F8EAEC6B1F4D2B0700887894 /* ViewController.h */,
-				F8EAEC6C1F4D2B0700887894 /* ViewController.m */,
+				F8E33CCA1F5FD793009E11B3 /* Emoji */,
+				F8E33CC81F5FD17E009E11B3 /* Helper */,
+				F8E33CAE1F5E5CFA009E11B3 /* URLProtocol */,
+				F807E8541F553D2B00C6DF32 /* SLKView */,
+				F8EAEC7D1F4D2B6B00887894 /* SLKToken */,
+				F8EAEC7C1F4D2B5300887894 /* SLKRegx */,
+				F8E33CC91F5FD1A9009E11B3 /* Demo */,
 				F8EAEC6E1F4D2B0700887894 /* Main.storyboard */,
 				F8EAEC711F4D2B0700887894 /* Assets.xcassets */,
 				F8EAEC731F4D2B0700887894 /* LaunchScreen.storyboard */,
@@ -77,6 +230,52 @@
 				F8EAEC661F4D2B0700887894 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8EAEC7C1F4D2B5300887894 /* SLKRegx */ = {
+			isa = PBXGroup;
+			children = (
+				F8EAEC811F4D2D3100887894 /* SLKRegx.h */,
+				F8EAEC821F4D2D3100887894 /* SLKRegx.m */,
+			);
+			name = SLKRegx;
+			sourceTree = "<group>";
+		};
+		F8EAEC7D1F4D2B6B00887894 /* SLKToken */ = {
+			isa = PBXGroup;
+			children = (
+				F8EAEC981F4E762100887894 /* SLKTokenFactory.h */,
+				F8EAEC991F4E762100887894 /* SLKTokenFactory.m */,
+				F8EAECA51F4E9AFC00887894 /* SLKTokenParser.h */,
+				F8EAECA61F4E9AFC00887894 /* SLKTokenParser.m */,
+				F8EAEC7E1F4D2B9000887894 /* SLKToken.h */,
+				F8EAEC7F1F4D2B9000887894 /* SLKToken.m */,
+				F8EAEC931F4E6EBC00887894 /* SLKTokenHasSubTokens.h */,
+				F8EAEC941F4E6EBC00887894 /* SLKTokenHasSubTokens.m */,
+				F8EAEC871F4E6AE200887894 /* SLKBoldToken.h */,
+				F8EAEC881F4E6AE200887894 /* SLKBoldToken.m */,
+				F8EAEC8A1F4E6B0E00887894 /* SLKItalicsToken.h */,
+				F8EAEC8B1F4E6B0E00887894 /* SLKItalicsToken.m */,
+				F8EAEC8D1F4E6B2300887894 /* SLKStrikeToken.h */,
+				F8EAEC8E1F4E6B2300887894 /* SLKStrikeToken.m */,
+				F8EAEC901F4E6B5600887894 /* SLKQuoteToken.h */,
+				F8EAEC911F4E6B5600887894 /* SLKQuoteToken.m */,
+				F8EAECA21F4E9A1300887894 /* SLKLongQuoteToken.h */,
+				F8EAECA31F4E9A1300887894 /* SLKLongQuoteToken.m */,
+				F8EAECA81F4EA25200887894 /* SLKPreToken.h */,
+				F8EAECA91F4EA25200887894 /* SLKPreToken.m */,
+				F8EAECAB1F4EA5E500887894 /* SLKCodeToken.h */,
+				F8EAECAC1F4EA5E500887894 /* SLKCodeToken.m */,
+				F807E83C1F4ED49300C6DF32 /* SLKTagToken.h */,
+				F807E83D1F4ED49300C6DF32 /* SLKTagToken.m */,
+				F807E8451F5402B600C6DF32 /* SLKUrlToken.h */,
+				F807E8461F5402B600C6DF32 /* SLKUrlToken.m */,
+				F807E8481F54046500C6DF32 /* SLKEmojiToken.h */,
+				F807E8491F54046500C6DF32 /* SLKEmojiToken.m */,
+				F807E84B1F54049A00C6DF32 /* SLKJumbomojiToken.h */,
+				F807E84C1F54049A00C6DF32 /* SLKJumbomojiToken.m */,
+			);
+			name = SLKToken;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +339,7 @@
 			files = (
 				F8EAEC751F4D2B0700887894 /* LaunchScreen.storyboard in Resources */,
 				F8EAEC721F4D2B0700887894 /* Assets.xcassets in Resources */,
+				F8E33CB61F5EAEFC009E11B3 /* SLKMessageCell.xib in Resources */,
 				F8EAEC701F4D2B0700887894 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +351,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EAEC6D1F4D2B0700887894 /* ViewController.m in Sources */,
+				F8E33CC41F5FB829009E11B3 /* UIWindow+FHH.m in Sources */,
+				F8EAECAA1F4EA25200887894 /* SLKPreToken.m in Sources */,
+				F8EAEC8C1F4E6B0E00887894 /* SLKItalicsToken.m in Sources */,
+				F8EAEC801F4D2B9000887894 /* SLKToken.m in Sources */,
+				F8EAEC891F4E6AE200887894 /* SLKBoldToken.m in Sources */,
+				F807E8641F595CF000C6DF32 /* SLKQuoteContainerView.m in Sources */,
+				F8EAECA71F4E9AFC00887894 /* SLKTokenParser.m in Sources */,
+				F8EAECA41F4E9A1300887894 /* SLKLongQuoteToken.m in Sources */,
+				F8E33CCD1F5FD7A9009E11B3 /* SLKEmojiMap.m in Sources */,
+				F807E8471F5402B600C6DF32 /* SLKUrlToken.m in Sources */,
+				F807E8611F5928AE00C6DF32 /* SLKMessageContainerView.m in Sources */,
+				F8EAEC861F4D40D100887894 /* UIFont+SLKMessage.m in Sources */,
+				F8EAEC951F4E6EBC00887894 /* SLKTokenHasSubTokens.m in Sources */,
+				F8EAEC831F4D2D3100887894 /* SLKRegx.m in Sources */,
+				F807E85B1F5559A500C6DF32 /* SLKMessageLabel.m in Sources */,
+				F8E33CB91F5EB0D7009E11B3 /* SLKMessageViewController.m in Sources */,
+				F8E33CC31F5FB829009E11B3 /* FHHFPSIndicator.m in Sources */,
+				F8EAEC8F1F4E6B2300887894 /* SLKStrikeToken.m in Sources */,
+				F807E84D1F54049A00C6DF32 /* SLKJumbomojiToken.m in Sources */,
+				F8E33CB11F5E5D21009E11B3 /* SLKURLProtocol.m in Sources */,
+				F807E83E1F4ED49300C6DF32 /* SLKTagToken.m in Sources */,
+				F8E33CB51F5EAEFC009E11B3 /* SLKMessageCell.m in Sources */,
 				F8EAEC6A1F4D2B0700887894 /* AppDelegate.m in Sources */,
 				F8EAEC671F4D2B0700887894 /* main.m in Sources */,
+				F807E85E1F57AF7800C6DF32 /* SLKMessageView.m in Sources */,
+				F8EAEC921F4E6B5600887894 /* SLKQuoteToken.m in Sources */,
+				F807E84A1F54046500C6DF32 /* SLKEmojiToken.m in Sources */,
+				F8E33CC71F5FC955009E11B3 /* NSString+SLKMessage.m in Sources */,
+				F807E8571F55406D00C6DF32 /* UIView+SLKTokens.m in Sources */,
+				F8EAEC9A1F4E762100887894 /* SLKTokenFactory.m in Sources */,
+				F8EAECAD1F4EA5E500887894 /* SLKCodeToken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +502,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47793U9PJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SLKMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SLKMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -286,8 +522,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47793U9PJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SLKMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SLKMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -312,6 +556,7 @@
 				F8EAEC7B1F4D2B0700887894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

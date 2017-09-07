@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  UIView+SLKTokens.h
 //  SLKMessage
 //
-//  Created by saix on 2017/8/23.
+//  Created by saix on 2017/8/29.
 //  Copyright © 2017年 sai. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UIView (SLKTokens)
 
 @end
-

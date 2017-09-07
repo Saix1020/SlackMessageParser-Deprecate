@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SLKURLProtocol.h"
+#import "SLKMessageViewController.h"
+#import "FHHFPSIndicator.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[SLKMessageViewController new]];
+    [self.window makeKeyAndVisible];
+    [[FHHFPSIndicator sharedFPSIndicator] show];
     return YES;
 }
 
